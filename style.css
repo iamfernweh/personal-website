@@ -90,6 +90,7 @@ footer{
     flex-wrap: wrap;
   }
   
+  
   /* Styling each project section */
   .project {
     background-color: #ececec;
@@ -121,6 +122,31 @@ footer{
     border-radius: 8px;
     margin-bottom: 10px;
     display: flex;
+  }
+  
+  /* Styling contact form */
+  #contact-form{
+    margin: 20px;
+    padding: 10px;
+  }
+
+  #contact-form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  #contact-form input{
+    color: #385170;
+    margin-bottom: 10px;
+  }
+
+  #contact-form textarea{
+    color: #385170;
+    margin-bottom: 10px;
+  }
+
+  #submit{
+    font-weight: bold;
   }
 
 /* Media tags */
