@@ -1,153 +1,149 @@
-html{
-    flex-wrap: wrap;
-    font-family: Arial, Helvetica, sans-serif;
+html {
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #385170;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #385170;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
 }
 
-
-a{
-    color: #ececec;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    text-decoration: none;
+a {
+  color: #ececec;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-decoration: none;
 }
 
-body{
-    background-color: #9fd3c7;
-    margin: 0 auto;
-    padding: 0;
-    flex-wrap: wrap;
+body {
+  background-color: #9fd3c7;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    flex-wrap: wrap;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-wrap: wrap;
 }
 
-main > img{
-    display: flex;
-    width: 400px;
-    height: auto;
-    margin: 50px;
-
+main>img {
+  display: flex;
+  width: 400px;
+  height: auto;
+  margin: 50px;
 }
 
-p{
-    text-align:center;
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
+p {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.quote{
-      text-align: center;
-      width: 50%;
-      padding: 20px;
-      box-sizing: border-box;
-      border: #385170 solid;
+.quote {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: #385170 solid;
 }
 
-footer{
-    position: fixed;
-    border: 1px solid black;
-    bottom: 0;
-    width: 100%;
-    background-color: #385170;
-    text-align: center;
-    padding: 10px;
+footer {
+  position: fixed;
+  border: 1px solid black;
+  bottom: 0;
+  width: 100%;
+  background-color: #385170;
+  text-align: center;
+  padding: 10px;
 }
-
 
 #project-header {
-    margin: 50px;
-    padding: 0;
-  }
-
+  margin: 50px;
+  padding: 0;
+}
 
 #project-header {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
+  font-size: 28px;
+  margin-bottom: 20px;
+}
 
-  #project-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  
-  /* Styling each project section */
-  .project {
-    background-color: #ececec;
-    margin: 10px;
-    padding: 15px;
-    width: calc(33.33% - 20px);
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-  
-  /* Styling project titles */
-  .project h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  /* Styling project content */
-  .project-content p {
-    text-align: center !important;
-    color: rgb(100, 178, 164) !important;
-    padding: 0;
-  }
-  
-  /* Styling portfolio images */
-  .portfolio-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    display: flex;
-  }
-  
-  /* Styling contact form */
-  #contact-form{
-    margin: 20px;
-    padding: 10px;
-  }
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  #contact-form label{
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+/* Styling each project section */
+.project {
+  background-color: #ececec;
+  margin: 10px;
+  padding: 15px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 
-  #contact-form input{
-    color: #385170;
-    margin-bottom: 10px;
-  }
+/* Styling project titles */
+.project h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-  #contact-form textarea{
-    color: #385170;
-    margin-bottom: 10px;
-  }
+/* Styling project content */
+.project-content p {
+  text-align: center !important;
+  color: rgb(34, 68, 62) !important;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  #submit{
-    font-weight: bold;
-  }
+/* Styling portfolio images */
+.portfolio-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+/* Styling contact form */
+#form {
+  margin: 20px;
+  padding: 10px;
+}
+
+#form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#form input {
+  color: #385170;
+  margin-bottom: 10px;
+}
+
+#form textarea {
+  color: #385170;
+  margin-bottom: 10px;
+}
+
+#submit {
+  font-weight: bold;
+}
 
 /* Media tags */
 @media (max-width: 767px) {
