@@ -121,22 +121,22 @@ footer {
 }
 
 /* Styling contact form */
-#form {
+#submit {
   margin: 20px;
   padding: 10px;
 }
 
-#form label {
+#submit label {
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-#form input {
+#submit input {
   color: #385170;
   margin-bottom: 10px;
 }
 
-#form textarea {
+#submit textarea {
   color: #385170;
   margin-bottom: 10px;
 }
